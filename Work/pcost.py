@@ -8,7 +8,7 @@ def portfolio_cost(filename):
     for line in f:
         rows = line.split(',')
         total = total + (float(rows[1]) * float(rows[2]))
-    return round(total, 2))
+    return round(total, 2)
     
 print('Total cost', portfolio_cost('Data/portfolio.csv'))
 
