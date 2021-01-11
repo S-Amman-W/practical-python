@@ -10,5 +10,5 @@ def portfolio_cost(filename):
         total = total + (float(rows[1]) * float(rows[2]))
     return round(total, 2))
     
-print('Total cost', (portfolio_cost('Data/portfolio.csv'))
+print('Total cost', portfolio_cost('Data/portfolio.csv'))
 
